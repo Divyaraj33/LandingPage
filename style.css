@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Josefin+Sans:ital,wght@1,100&family=Kanit:wght@100&family=Open+Sans:wght@300&family=Poppins&family=Roboto+Mono:wght@100&family=Silkscreen&family=Ubuntu:ital,wght@0,300;1,300&family=Varela+Round&family=Ysabeau+Office:wght@1;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.logo{
+    font-weight: 4rem;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: grey;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,80% 80%,0% 100%);
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.navbar li a:hover{
+    color: orange
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.topleft{
+    width: 50%;
+}
+.topright{
+    width: 50%;
+    height: 100px;
+}
+.section1{
+    max-height: 100vh;
+}
+.section1 h1{
+    font-size: 1.5rem;
+}
+.img{
+    width: 204px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    box-shadow: 2px 3px 5px orange;
+    flex-direction: column;
+}
+.topright .gymimg{
+    width: 400px;
+    height: 580px;
+}
+.para{
+    margin-top: 20px;
+    margin-bottom: 180px;
+}
+/* services */
+
+#services{
+    padding: 50px 0px;
+}
+.services-info{
+    text-align: center;
+}
+.services-info h1{
+    font-size: 50px;
+}
+.services-info p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.services-row{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-auto-rows: minmax(150px,auto);
+    grid-gap: 2rem;
+    justify-content: center;
+}
+.services-box{
+    box-shadow: 2px 3px 5px orange;
+    padding: 10px;
+    padding-top: 40px;
+    text-align: center;
+}
+#blue{
+    color: orange;
+}
+#blue1{
+    color: orange;
+}
+
+
+.services-box{
+    background-color: gainsboro;
+    margin-top: 25px;
+}
+#work{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color:  gainsboro;
+    margin-top: 50px;
+}
+.work-box{
+    box-shadow: 2px 3px 5px orange;
+    margin-top: 20px;
+}
+.work-box img{
+    width: 100%;
+    height: 100%;
+}
+.red{
+    color: orange;
+}
+.contact-row{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+    box-shadow: 2px 3px 5px orange;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding:  40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: orange;
+    color: fff;
+}
+h1{
+    margin-bottom: 10px;
+}
+.one{
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.contact p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+.input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px soild #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin: 6px;
+    display: block;
+}
+button{
+    background: orange;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px opx orange;
+}
+tr td{
+    padding: 5px; 
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background: grey;
+    margin-top: 20px;
+}
